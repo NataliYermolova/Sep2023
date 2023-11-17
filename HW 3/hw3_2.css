@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+    }
+
+body{
+    margin: 0;
+    }
+
+#first{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e88585;
+
+    }
+
+#second{
+    width: 100vw;
+    height: 100vh;
+    background-color: #6fe1dd;
+    }
+
+#third{
+    width: 100vw;
+    height: 100vh;
+    background-color: #55a251;
+    }
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+p{
+    padding: 0 10vw;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    }
+
+h1{
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    }

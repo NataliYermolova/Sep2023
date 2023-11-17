@@ -1,0 +1,498 @@
+body{
+    margin: 0;
+}
+
+                          /*Картинка*/
+header{
+    display: flex;
+    width: 100vw;
+    padding: 25px 1119px 15px 135px;
+    align-items: center;
+    background: #FFF;
+}
+
+                          /*Блок навігації*/
+nav{
+    width: 100vw;
+    display: inline-flex;
+    height: 60px;
+    padding: 0 671.151px 0 135px;
+    align-items: flex-start;
+    gap: 29.626px;
+    background-color: #FFF;
+}
+
+                          /*Текст (кнопки) навігації*/
+a{
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    color: #99A2AA;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+                          /*Помаранчевий екран на початку*/
+.orange_header{
+    width: 100vw;
+    height: 450px;
+    display: inline-flex;
+    padding: 0 735px 220px 135px;
+    align-items: center;
+    background: #FEC524;
+}
+
+.text_on_orange{
+    width: 570px;
+    height: 230px;
+}
+
+.text_on_orange>h1{
+    display: flex;
+    width: 299.737px;
+    height: 52px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.text_on_orange>p{
+    display: flex;
+    width: 312.725px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #0E2F4B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+                          /*Віконце для вводу номера відправлення*/
+.order_number{
+    width: 1200px;
+    height: 212px;
+    position: relative;
+    top: -150px;
+    left: 130px;
+}
+
+.order_number>input{
+    display: inline-flex;
+    height: 72px;
+    width: 315px;
+    padding: 0 230px 0 30px;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+    border: none;
+}
+
+                          /*Кнопки*/
+.flex{
+    display: flex;
+}
+
+.calculate, .order, .index, .subscription{
+    display: flex;
+    width: 180px;
+    padding: 25.84px 54.305px 24.16px 54.67px;
+    margin: 30px 30px 0 0;
+    justify-content: center;
+    align-items: center;
+    gap: 23.94px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+
+}
+
+.calculate>a, .order>a, .index>a, .subscription>a{
+    display: flex;
+    width: 110px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: center;
+    color: #99A2AA;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+                          /*Сірий фон "Поштові послуги"*/
+.postal_services{
+    width: 100vw;
+    height: 800px;
+    background: #F8F8F8;
+}
+
+.postal_services>.flex>div>h1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 204.939px;
+    height: 57px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0 0 60px 130px;
+}
+
+.postal_services>.flex>div>p{
+    display: flex;
+    width: 368.547px;
+    height: 22px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0 0 130px;
+}
+
+                          /*Сірий фон параметри*/
+.parameters{
+    width: 800px;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.parameters1, .parameters2, .parameters3, .parameters4, .parameters5, .parameters6{
+    flex-direction: column;
+    width: 250px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: -30px 0 0 100px;
+}
+
+.parameters1>h1, .parameters2>h1, .parameters5>h1, .parameters6>h1 {
+    display: flex;
+    width: 200px;
+    height: 28px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.parameters3>h1{
+    display: flex;
+    width: 250px;
+    height: 28px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.parameters4>h1{
+    margin: 0;
+    display: flex;
+    width: 200px;
+    height: 28px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.parameters4>a{
+    display: flex;
+    width: 100px;
+    height: 17px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 15px 0 0 0;
+}
+
+.parameters1>a, .parameters2>a, .parameters3>a, .parameters5>a, .parameters6>a {
+    display: flex;
+    width: 100px;
+    height: 17px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 30px 0 0 0;
+}
+
+                          /* Синій фон "Започаткуйте успішний міжнародний бізнес"*/
+.blue_box_business{
+    display: flex;
+    width: 100vw;
+    height: 660px;
+    padding: 120px 135px 150px 135px;
+    justify-content: left;
+    align-items: center;
+    background: #042C4B;
+}
+
+.blue_box_business>div>h1{
+    display: flex;
+    width: 592.315px;
+    height: 57px;
+    flex-direction: column;
+    justify-content: center;
+    color: #F8F8F8;
+    font-family: 'Rubik', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.blue_box_business>div>p{
+    display: flex;
+    width: 355.558px;
+    height: 22px;
+    flex-direction: column;
+    justify-content: center;
+    color: #99A2AA;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.blue_box_business>div>button{
+    display: flex;
+    width: 305px;
+    height: 80px;
+    padding: 28px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FDC13D;
+}
+
+.blue_box_business>div>button>p {
+    display: flex;
+    width: 88.536px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+                          /* Білий фон, Гуманітарна допомога, фінанси*/
+.white_box{
+    display: flex;
+    width: 100vw;
+    height: 880px;
+    padding: 100px 120px 0px 120px;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+    flex-direction: column;
+}
+
+.orange{
+    width: 1170px;
+    height: 220px;
+    border-radius: 10px;
+    background: #FDC13D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.white_box>.orange>h1 {
+    width: 1000px;
+    height: 60px;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.white_box>.orange>p{
+    width: 1000px;
+    height: 22px;
+    color: #0E2F4B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.white_box>.orange>a{
+    width: 110px;
+    height: 19px;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: -900px;
+}
+
+.white_box>div>h1{
+    width: 461px;
+    height: 57px;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.white_box>div>.finances{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 100px 0 0 -300px;
+
+}
+
+.white_box>div{
+    margin: 50px;
+
+}
+
+                          /* Синій фон "Знайти індекс" */
+.blue_index{
+    width: 100vw;
+    height: 635px;
+    padding: 134.5px 120px 135.5px 120px;
+    justify-content: left;
+    align-items: center;
+    background: #0E2F4B;
+
+}
+
+.blue_index>h1{
+    display: flex;
+    width: 352.037px;
+    height: 57px;
+    flex-direction: column;
+    justify-content: center;
+    color: #F8F8F8;
+    font-family: 'Rubik', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+
+.blue_index>p{
+    display: flex;
+    width: 1135.118px;
+    height: 22px;
+    flex-direction: column;
+    justify-content: center;
+    color: #99A2AA;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.blue_index>div>input{
+    display: flex;
+    width: 505.98px;
+    height: 78px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #E8EBEE;
+    background: #FFF;
+}
+
+.blue_index>div>button{
+    display: flex;
+    width: 250px;
+    height: 78px;
+    padding: 28px 86.725px 28px 87.05px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FDC13D;
+    border: none;
+    margin-left: 10px;
+}
+
+.blue_index>div>button>a{
+    display: flex;
+    width: 75.205px;
+    height: 2px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.blue_index>div{
+    margin-top: 70px;
+    display: flex;
+}

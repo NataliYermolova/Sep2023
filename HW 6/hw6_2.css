@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+.A{
+    width: 100vw;
+    height: 35vh;
+    background-color: #d8d8d8;
+    font-size: 3vh;
+}
+
+.B{
+    width: 75vw;
+    height: 35vh;
+    background-color: #c2c2c2;
+    font-size: 3vh;
+}
+
+.CDE {
+    display: flex;
+}
+
+
+.C{
+    width: 25vw;
+    height: 30vh;
+    background-color: #b2b2b2;
+    font-size: 3vh;
+}
+
+.D{
+    width: 25vw;
+    height: 30vh;
+    background-color: #9f9f9f;
+    font-size: 3vh;
+}
+
+.E{
+    width: 25vw;
+    height: 30vh;
+    background-color: #8a8a8a;
+    font-size: 3vh;
+}
+
+.F{
+    width: 25vw;
+    height: 65vh;
+    background-color: #b2b2b2;
+    font-size: 3vh;
+}
+
+.BCDEF{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

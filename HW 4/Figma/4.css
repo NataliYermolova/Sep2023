@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+
+header{
+    width: 100vw;
+    height: 22vh;
+    background: #927D7D;
+}
+
+footer{
+    width: 100vw;
+    height: 22vh;
+    background: #BDBDBD;
+}
+
+.section1{
+    width: 19.5vw;
+    height: 56vh;
+    background: #817C7C;
+}
+
+.section2{
+    width: 60vw;
+    height: 12vh;
+    background: #CCBEBE;
+}
+
+.section3{
+    width: 12vw;
+    height: 32vh;
+    background: #473434;
+}
+
+.section4{
+    width: 36vw;
+    height: 32vh;
+    background: #A74848;
+}
+
+.section5{
+    width: 12vw;
+    height: 32vh;
+    background: #925A5A;
+}
+
+.section6{
+    width: 60vw;
+    height: 12vh;
+    background: #CF6262;
+}
+
+.section7{
+    width: 19.5vw;
+    height: 56vh;
+    background: #B7AEAE;
+}

@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    width: 100vw;
+    height: 25vh;
+    background: #D9D9D9;
+}
+.section1{
+    width: 25vw;
+    height: 75vh;
+    background: #909090;
+}
+
+.section2{
+    width: 25vw;
+    height: 75vh;
+    background: #645F5F;
+}
+
+.section3{
+    width: 20vw;
+    height: 75vh;
+    background: #A59D9D;
+}
+
+.section4{
+    width: 20vw;
+    height: 75vh;
+    background: #878585;
+}
+
+.section5{
+    width: 10vw;
+    height: 75vh;
+    background: #4E4444;
+}

@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.HW{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.5s;
+}
+.HW:hover{
+    background-color: gray;
+    transition: 0.5s;
+    border-radius: 50%;
+}

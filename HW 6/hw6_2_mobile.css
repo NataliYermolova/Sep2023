@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px){
+
+    body{
+        margin: 0;
+    }
+
+    .A{
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .B{
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .C, .D, .E{
+        width: 33.33vw;
+        height: 20vh;
+    }
+
+    .F{
+        width: 100vw;
+        height: 20vh;
+        background-color: #c2c2c2;
+    }
+
+    .BCDEF{
+        display: block;
+    }
+
+}
